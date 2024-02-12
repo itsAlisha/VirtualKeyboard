@@ -251,10 +251,44 @@ ul, ol {padding: 0px; margin: 0;}
         /* For IE 6/7 (trigger hasLayout) */
         .cf {zoom:1;} 
 
-.home{
+.home {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 46px;
 	font-size: 7.5pt;
+}
+.pgup {
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	text-align: center;
+	width: 46px;
+	font-size: 7.5pt;
+}
+.pgdn {
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	text-align: center;
+	width: 46px;
+	font-size: 7.5pt;
+}
+.end {
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	text-align: center;
+	width: 46px;
+	font-size: 7.5pt;
+}
+.prntscr {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	/* text-align: center; */
+	width: 46px;
+	font-size: 7.5pt;
+	margin-left: 10px;
+	padding-bottom: 9px;
 }
