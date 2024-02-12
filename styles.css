@@ -84,12 +84,10 @@ li {float: left;}
 	display: block;
 	margin: 14px 5px 0 0;
 	text-align: right;
-	font: bold 6pt arial;
-	text-transform: uppercase;}
+	font: bold 6pt arial;}
 #esc {
 	margin: 6px 15px 0 0;
-	font-size: 7.5pt;
-	text-transform: uppercase;}
+	font-size: 7.5pt;}
 
 
 #numbers li a span {
@@ -101,22 +99,19 @@ li {float: left;}
 
 #numbers li .alt b {display: block;margin: 0 0 3px;}
 
-#numbers li #delete span {
-	text-align: right;
-	margin: 23px 10px 0 0;
-	font-size: 7.5pt;
-	text-transform: uppercase;}
+#numbers li #backspace span {
+	text-align: center;
+	margin: 16px 1px 0 0;
+	font-size: 7.5pt;}
 	
 #qwerty li a span {
 	display: block;
-	margin: 13px 0 0;
-	text-transform: uppercase;}
+	margin: 13px 0 0;}
 	
 #qwerty li #tab span {
 	text-align: left;
 	margin: 23px 0 0 10px;
-	font-size: 7.5pt;
-	text-transform: uppercase;}	
+	font-size: 7.5pt;}	
 
 #qwerty li .alt b {display: block; margin: 3px 0 0;}
 #qwerty li .alt span {margin: 2px 0 0;}
@@ -124,10 +119,9 @@ li {float: left;}
 
 #asdfg li a span {
 	display: block;
-	margin: 13px 0 0;
-	text-transform: uppercase;}
+	margin: 13px 0 0;}
 
-#asdfg li .alt span {margin: 0; text-transform: uppercase;}
+#asdfg li .alt span {margin: 0;}
 #asdfg li .alt b {display: block; margin: 3px 0 0;}
 #asdfg li #caps b {
 	display: block;
@@ -151,18 +145,15 @@ li {float: left;}
 
 #zxcvb li a span {
 	display: block;
-	margin: 13px 0 0;
-	text-transform: uppercase;}
+	margin: 13px 0 0;}
 #zxcvb li .shiftleft span {
 	text-align: left;
 	margin: 23px 0 0 10px;
-	font-size: 7.5pt;
-	text-transform: uppercase;}
+	font-size: 7.5pt;}
 #zxcvb li .shiftright span {
 	text-align: right;
 	margin: 23px 10px 0 0;
-	font-size: 7.5pt;
-	text-transform: uppercase;}
+	font-size: 7.5pt;}
 #zxcvb li .alt b {display: block;margin: 4px 0 0;}
 #zxcvb li .alt span {margin: 0;}
 
@@ -171,22 +162,20 @@ li {float: left;}
 	display: block;
 	text-align: left;
 	margin: 31px 0 0 8px;
-	font-size: 7.5pt;
-	text-transform: uppercase;}
+	font-size: 7.5pt;}
 
 #bottomrow li #optionright span, #bottomrow li #commandright span {
 	display: block;
 	text-align: right;
 	margin: 31px 8px 0 0;
-	font-size: 7.5pt;
-	text-transform: uppercase;}
+	font-size: 7.5pt;}
 
 #bottomrow ol li #left span, #bottomrow ol li #right span, #bottomrow ol li #up span, #bottomrow ol li #down span {
 	display: block;
 	margin: 9px 0 0;}
 
 .fn {height: 26px; width: 46px;}
-#delete {width: 72px;}
+#backspace {width: 72px;}
 #tab {width: 72px;}
 #caps {width: 85px;}
 #enter {width: 85px;}
@@ -261,3 +250,11 @@ ul, ol {padding: 0px; margin: 0;}
 
         /* For IE 6/7 (trigger hasLayout) */
         .cf {zoom:1;} 
+
+.home{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 46px;
+	font-size: 7.5pt;
+}
